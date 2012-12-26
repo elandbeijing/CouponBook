@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HomePage</key>
+	<dict>
+		<key>ViewType</key>
+		<string>remote</string>
+		<key>URL</key>
+		<string>/</string>
+	</dict>
+	<key>UITheme</key>
+	<string>navyui</string>
+	<key>MenuTheme</key>
+	<string>navymenu</string>
+	<key>BackgroundColor</key>
+	<string>#FFFFFF</string>
+	<key>AccountManagerClassName</key>
+	<string>GBFWAccountManager</string>
+	<key>LoginManagerClassName</key>
+	<string>GBFWLoginManager2</string>
+	<key>NotificationManagerClassName</key>
+	<string>GBFWNotificationManager</string>
+	<key>Domain</key>
+	<dict>
+		<key>PRD</key>
+		<string>121.169.202.179</string>
+		<key>QAS</key>
+		<string>121.169.202.179</string>
+		<key>DEV</key>
+		<string>121.169.202.179</string>
+	</dict>
+	<key>Port</key>
+	<dict>
+		<key>PRD</key>
+		<integer>8008</integer>
+		<key>QAS</key>
+		<integer>8008</integer>
+		<key>DEV</key>
+		<integer>8008</integer>
+	</dict>
+	<key>DevelopmentMode</key>
+	<true/>
+	<key>APIListUrl</key>
+	<string>http://121.169.202.179:8001/</string>
+</dict>
+</plist>
