@@ -28,7 +28,6 @@
 		85E38A67168A8E29004AC617 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E38A66168A8E29004AC617 /* CoreMedia.framework */; };
 		85E38A69168A8E2E004AC617 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E38A68168A8E2E004AC617 /* CoreData.framework */; };
 		85E38A6B168A8E35004AC617 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E38A6A168A8E35004AC617 /* MessageUI.framework */; };
-		85E38A6C168A8E3D004AC617 /* libGBFW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E38A4C168A8D26004AC617 /* libGBFW.a */; };
 		85E38A75168A8F3C004AC617 /* FormularLibResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85E38A74168A8F3C004AC617 /* FormularLibResource.bundle */; };
 		85E38A80168A9085004AC617 /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E38A79168A9085004AC617 /* Cordova.plist */; };
 		85E38A81168A9085004AC617 /* Formular.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E38A7A168A9085004AC617 /* Formular.plist */; };
@@ -40,23 +39,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		85E38A4B168A8D26004AC617 /* PBXContainerItemProxy */ = {
+		06A6BC5E168C3C7F00908DA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85E38A3B168A8D25004AC617 /* GBFW.xcodeproj */;
+			containerPortal = 06A6BC4E168C3C7E00908DA3 /* GBFW.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 786E2BB016536AB800EB0444;
 			remoteInfo = GBFW;
 		};
-		85E38A4D168A8D26004AC617 /* PBXContainerItemProxy */ = {
+		06A6BC60168C3C7F00908DA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85E38A3B168A8D25004AC617 /* GBFW.xcodeproj */;
+			containerPortal = 06A6BC4E168C3C7E00908DA3 /* GBFW.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 786E2BC116536AB800EB0444;
 			remoteInfo = GBFWTests;
 		};
-		85E38A52168A8D35004AC617 /* PBXContainerItemProxy */ = {
+		06A6BC65168C3C8D00908DA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85E38A3B168A8D25004AC617 /* GBFW.xcodeproj */;
+			containerPortal = 06A6BC4E168C3C7E00908DA3 /* GBFW.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 786E2BAF16536AB800EB0444;
 			remoteInfo = GBFW;
@@ -64,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A6BC4E168C3C7E00908DA3 /* GBFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GBFW.xcodeproj; path = GBFW/GBFW.xcodeproj; sourceTree = "<group>"; };
 		85E38A1A168A8CF8004AC617 /* CouponBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouponBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E38A1E168A8CF8004AC617 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		85E38A20168A8CF8004AC617 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,7 +77,6 @@
 		85E38A30168A8CF8004AC617 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		85E38A32168A8CF8004AC617 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		85E38A34168A8CF8004AC617 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		85E38A3B168A8D25004AC617 /* GBFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GBFW.xcodeproj; path = ../GBFW/GBFW.xcodeproj; sourceTree = "<group>"; };
 		85E38A54168A8DD2004AC617 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		85E38A55168A8DD2004AC617 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		85E38A58168A8DE5004AC617 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -105,7 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85E38A6C168A8E3D004AC617 /* libGBFW.a in Frameworks */,
 				85E38A6B168A8E35004AC617 /* MessageUI.framework in Frameworks */,
 				85E38A69168A8E2E004AC617 /* CoreData.framework in Frameworks */,
 				85E38A67168A8E29004AC617 /* CoreMedia.framework in Frameworks */,
@@ -127,12 +125,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A6BC4F168C3C7E00908DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06A6BC5F168C3C7F00908DA3 /* libGBFW.a */,
+				06A6BC61168C3C7F00908DA3 /* GBFWTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		85E38A0F168A8CF8004AC617 = {
 			isa = PBXGroup;
 			children = (
+				06A6BC4E168C3C7E00908DA3 /* GBFW.xcodeproj */,
 				85E38A78168A9085004AC617 /* Resources */,
 				85E38A74168A8F3C004AC617 /* FormularLibResource.bundle */,
-				85E38A3B168A8D25004AC617 /* GBFW.xcodeproj */,
 				85E38A24168A8CF8004AC617 /* CouponBook */,
 				85E38A1D168A8CF8004AC617 /* Frameworks */,
 				85E38A1B168A8CF8004AC617 /* Products */,
@@ -193,15 +200,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		85E38A3C168A8D25004AC617 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				85E38A4C168A8D26004AC617 /* libGBFW.a */,
-				85E38A4E168A8D26004AC617 /* GBFWTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		85E38A78168A9085004AC617 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,7 +228,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				85E38A53168A8D35004AC617 /* PBXTargetDependency */,
+				06A6BC66168C3C8D00908DA3 /* PBXTargetDependency */,
 			);
 			name = CouponBook;
 			productName = CouponBook;
@@ -259,8 +257,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 85E38A3C168A8D25004AC617 /* Products */;
-					ProjectRef = 85E38A3B168A8D25004AC617 /* GBFW.xcodeproj */;
+					ProductGroup = 06A6BC4F168C3C7E00908DA3 /* Products */;
+					ProjectRef = 06A6BC4E168C3C7E00908DA3 /* GBFW.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -271,18 +269,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		85E38A4C168A8D26004AC617 /* libGBFW.a */ = {
+		06A6BC5F168C3C7F00908DA3 /* libGBFW.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libGBFW.a;
-			remoteRef = 85E38A4B168A8D26004AC617 /* PBXContainerItemProxy */;
+			remoteRef = 06A6BC5E168C3C7F00908DA3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		85E38A4E168A8D26004AC617 /* GBFWTests.octest */ = {
+		06A6BC61168C3C7F00908DA3 /* GBFWTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = GBFWTests.octest;
-			remoteRef = 85E38A4D168A8D26004AC617 /* PBXContainerItemProxy */;
+			remoteRef = 06A6BC60168C3C7F00908DA3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -322,10 +320,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		85E38A53168A8D35004AC617 /* PBXTargetDependency */ = {
+		06A6BC66168C3C8D00908DA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GBFW;
-			targetProxy = 85E38A52168A8D35004AC617 /* PBXContainerItemProxy */;
+			targetProxy = 06A6BC65168C3C8D00908DA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
